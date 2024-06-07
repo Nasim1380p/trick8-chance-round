@@ -1,6 +1,6 @@
 # trick8-chance-round
 
-- [Demo Project](https://nasim1380p.github.io/trick7-show-hide-password/) 👩‍💻
+- [Demo Project](https://nasim1380p.github.io/trick8-chance-round/) 👩‍💻
 
 
   
