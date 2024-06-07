@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/export.css">
+    <link rel="stylesheet" href="fontello-855398e2/css/edit.css">
+</head>
+<body dir="rtl">
+    <main class="w-full 2xl:container mx-auto  flex justify-center overflow-hidden  font-primary">
+       <section class="row relative">
+        <div class=" w-full h-full flex bg-[#090742e6]">
+            <div class="flex flex-wrap w-full lg:w-[85%] m-24 ">
+                <div class=" w-full lg:w-[38%]  pt-16 lg:mt-28">
+                 <h2 class="lg:text-2xl font-bold text-white mt-5 text-center">شانس خودت رو برای <span class="text-[#fb6060] animate-pulse">برنده شدن </span> امتحان کن!</h2>
+                 <p class="text-white mt-3 text-center">هر روز بیا ویه سر بزن.</p>
+                 <a href="login.html"  class="w-full flex justify-center"><button id="login" class="hover:bg-[#e84343]  bg-[#9a9797] rounded-md  flex justify-center items-center text-white w-[80%] h-[40px] mt-8">جهت بازگشت کلیک کنید</button></a>
+                 <div class="row mt-14 justify-center">
+                    <h4 id="chance_num" class="w-full text-center text-white mb-3 text-sm">تعداد شانس شما : 3</h4>
+                    <i class=" icon-star text-[yellow] text-xl"></i>
+                    <i class=" icon-star text-[yellow] text-xl"></i>
+                    <i class=" icon-star text-[yellow] text-xl "></i>
+                    <div class=" row  justify-center mt-14">
+                        <h4 class="w-full text-lg text-center mb-5 text-white">راه های ارتباطی :</h4>
+                        <a  href="https://www.instagram.com/nasim_pirghollo_web?igsh=ZTM4ZDRiNzUwMw=="><i class="icon-github hover:text-[#fb6060] transition-all duration-1000 text-[#9a9797]"></i></a>
+                        <a href="https://github.com/Nasim1380p"><i class=" icon-twitter-bird mx-2 hover:text-[#fb6060] transition-all duration-1000 text-[#9a9797]"></i></a>
+                        <a href="https://www.linkedin.com/in/nasim-pirghollo-a783952a9/"><i class="icon-instagram mx-2 hover:text-[#fb6060] transition-all duration-1000 text-[#9a9797]"></i></a>
+                    </div>
+                 </div>
+                </div>
+                <div class=" w-full lg:w-[62%] rotate-45  mt-4">
+                <figure class=" flex justify-center relative mt-1  items-center transition-all duration-1000"> <img class="object-cover rounded-[50%]" src="img/spiner.png" alt=""></figure>
+                <button id="btn" class="lg:w-[110px] -rotate-45 text-[#dd3232] w-[56px] h-[56px] text-lg md:text-2xl font-bold lg:h-[110px] rounded-[50%] absolute top-[41%] left-[42%] md:top-[43%] md:left-[46%] xl:top-[40%] xl:left-[43%] "></button>
+                </div>
+            </div>
+        </div>
+        <!-- prize....  -->
+        <div id="prize" class="w-full absolute  top-[35%] left-0 rounded-md hidden transition-all duration-500"> 
+            <div class="w-full flex justify-center items-center">
+                <div class="xl:w-[33%] w-[70%] md:w-[50%] bg-[#bdbcf9] p-5 flex justify-center flex-wrap">
+                    <i id="end" class="w-full icon-cancel text-3xl text-[blue]"></i>
+                    <h2 class="text-[#160f2a] text-center font-bold  text-xl w-full mt-4"> دوست عزیز</h2>
+                    <h2 id="txt" class="text-[#160f2a] text-center font-bold  text-xl w-full mt-4"></h2>
+                    <button class="text-xl mt-10 text-white rounded-md bg-[#6363eb] w-[90px] h-[40px]">ادامه</button>
+                </div>
+            </div>
+        </div>
+        
+       </section>
+       <audio id="music1" src="sound/afarin.mp3"></audio>
+       <audio id="music2" src="sound/null.mp3"></audio>
+    </main>
+</body>
+<script src="js/master.js"></script>
+</html>
