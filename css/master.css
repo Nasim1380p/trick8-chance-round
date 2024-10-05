@@ -6,10 +6,10 @@
     display: flex;
     flex-wrap: wrap;
 }
-.personal{
-         cursor: pointer;
-}
 @font-face {
     font-family: iran;
     src: url("../font/iran.ttf") format("opentype");
+}
+.personal{
+         cursor: pointer;
 }
